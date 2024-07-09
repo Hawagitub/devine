@@ -1,0 +1,278 @@
+name: devine
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.8
+  audioplayers: ^0.20.1
+  http: ^0.13.4
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  #To add assets to your application, add an assets section, like this:
+  assets:
+
+      - C:\Users\DELL\Desktop\devine\devine\images\france.png
+      - C:\Users\DELL\Desktop\devine\devine\images\allemagne.png
+      - C:\Users\DELL\Desktop\devine\devine\images\argentine.png
+      - C:\Users\DELL\Desktop\devine\devine\images\brazil.png
+      - C:\Users\DELL\Desktop\devine\devine\images\canada.png
+      - C:\Users\DELL\Desktop\devine\devine\images\chine.png
+      - C:\Users\DELL\Desktop\devine\devine\images\egypte.png
+      - C:\Users\DELL\Desktop\devine\devine\images\englais.png
+      - C:\Users\DELL\Desktop\devine\devine\images\espagne.png
+      - C:\Users\DELL\Desktop\devine\devine\images\inde.png
+      - C:\Users\DELL\Desktop\devine\devine\images\italie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\japon.png
+      - C:\Users\DELL\Desktop\devine\devine\images\portugal.png
+      - C:\Users\DELL\Desktop\devine\devine\images\russie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\usa.png
+      - C:\Users\DELL\Desktop\devine\devine\images\facile1.png
+      - C:\Users\DELL\Desktop\devine\devine\images\medium.png
+      - C:\Users\DELL\Desktop\devine\devine\images\difficile.png
+      - C:\Users\DELL\Desktop\devine\devine\images\logo.png
+      - C:\Users\DELL\Desktop\devine\devine\images\albert.png
+      - C:\Users\DELL\Desktop\devine\devine\images\voiture.png
+      - C:\Users\DELL\Desktop\devine\devine\images\avion.png
+      - C:\Users\DELL\Desktop\devine\devine\images\moto.png
+      - C:\Users\DELL\Desktop\devine\devine\images\train.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sn4.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sn3.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sn2.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sn1.png
+      - C:\Users\DELL\Desktop\devine\devine\images\py4.png
+      - C:\Users\DELL\Desktop\devine\devine\images\py3.png
+      - C:\Users\DELL\Desktop\devine\devine\images\py2.png
+      - C:\Users\DELL\Desktop\devine\devine\images\py1.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bolt.png
+      - C:\Users\DELL\Desktop\devine\devine\images\castro.png
+      - C:\Users\DELL\Desktop\devine\devine\images\clinton.png
+      - C:\Users\DELL\Desktop\devine\devine\images\davinci.png
+      - C:\Users\DELL\Desktop\devine\devine\images\degaulle.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ford.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mandela.png
+      - C:\Users\DELL\Desktop\devine\devine\images\margaret.png
+      - C:\Users\DELL\Desktop\devine\devine\images\marie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\marley.png
+      - C:\Users\DELL\Desktop\devine\devine\images\martin.png
+      - C:\Users\DELL\Desktop\devine\devine\images\putin.png
+      - C:\Users\DELL\Desktop\devine\devine\images\rowling.png
+      - C:\Users\DELL\Desktop\devine\devine\images\vangogh.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backqui.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backana.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backanag.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backima.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backsuis.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backpays.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backyyy.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backcalculs.png
+      - C:\Users\DELL\Desktop\devine\devine\images\blackcalcul.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backpayss.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backmot.png
+      - C:\Users\DELL\Desktop\devine\devine\images\backmott.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pe1.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pe2.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pe3.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pe4.png
+      - C:\Users\DELL\Desktop\devine\devine\images\amsterdam.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ankara.png
+      - C:\Users\DELL\Desktop\devine\devine\images\arabie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\argentine.png
+      - C:\Users\DELL\Desktop\devine\devine\images\astana.png
+      - C:\Users\DELL\Desktop\devine\devine\images\athene.png
+      - C:\Users\DELL\Desktop\devine\devine\images\australie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bangkok.png
+      - C:\Users\DELL\Desktop\devine\devine\images\belgique.png
+      - C:\Users\DELL\Desktop\devine\devine\images\berne.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bich.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bolivie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bostwana.png
+      - C:\Users\DELL\Desktop\devine\devine\images\budapest.png
+      - C:\Users\DELL\Desktop\devine\devine\images\conakry.png
+      - C:\Users\DELL\Desktop\devine\devine\images\copen.png
+      - C:\Users\DELL\Desktop\devine\devine\images\dou.png
+      - C:\Users\DELL\Desktop\devine\devine\images\dublin.png
+      - C:\Users\DELL\Desktop\devine\devine\images\gua.png
+      - C:\Users\DELL\Desktop\devine\devine\images\hels.png
+      - C:\Users\DELL\Desktop\devine\devine\images\inde.png
+      - C:\Users\DELL\Desktop\devine\devine\images\kampala.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mada.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mongolie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\oslo.png
+      - C:\Users\DELL\Desktop\devine\devine\images\para.png
+      - C:\Users\DELL\Desktop\devine\devine\images\portugal.png
+      - C:\Users\DELL\Desktop\devine\devine\images\seoul.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sto.png
+      - C:\Users\DELL\Desktop\devine\devine\images\teheran.png
+      - C:\Users\DELL\Desktop\devine\devine\images\varsovie.png
+      - C:\Users\DELL\Desktop\devine\devine\images\haskell.png
+      - C:\Users\DELL\Desktop\devine\devine\images\html.png
+      - C:\Users\DELL\Desktop\devine\devine\images\java.png
+      - C:\Users\DELL\Desktop\devine\devine\images\javascript.png
+      - C:\Users\DELL\Desktop\devine\devine\images\prolog.png
+      - C:\Users\DELL\Desktop\devine\devine\images\python.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ruby.png
+      - C:\Users\DELL\Desktop\devine\devine\images\scala.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sql.png
+      - C:\Users\DELL\Desktop\devine\devine\images\go.png
+      - C:\Users\DELL\Desktop\devine\devine\images\css.png
+      - C:\Users\DELL\Desktop\devine\devine\images\cplus.png
+      - C:\Users\DELL\Desktop\devine\devine\images\c.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ananas.png
+      - C:\Users\DELL\Desktop\devine\devine\images\aubergine.png
+      - C:\Users\DELL\Desktop\devine\devine\images\avocat.png
+      - C:\Users\DELL\Desktop\devine\devine\images\banane.png
+      - C:\Users\DELL\Desktop\devine\devine\images\blue.png
+      - C:\Users\DELL\Desktop\devine\devine\images\brocoli.png
+      - C:\Users\DELL\Desktop\devine\devine\images\carotte.png
+      - C:\Users\DELL\Desktop\devine\devine\images\fraise.png
+      - C:\Users\DELL\Desktop\devine\devine\images\laitue.png
+      - C:\Users\DELL\Desktop\devine\devine\images\lemon.png
+      - C:\Users\DELL\Desktop\devine\devine\images\orange.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pasteque.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pomme.png
+      - C:\Users\DELL\Desktop\devine\devine\images\tomate.png
+      - C:\Users\DELL\Desktop\devine\devine\images\abd.png
+      - C:\Users\DELL\Desktop\devine\devine\images\alaphasy.png
+      - C:\Users\DELL\Desktop\devine\devine\images\babacar.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bamba.png
+      - C:\Users\DELL\Desktop\devine\devine\images\bastia.png
+      - C:\Users\DELL\Desktop\devine\devine\images\billgates.png
+      - C:\Users\DELL\Desktop\devine\devine\images\blaise.png
+      - C:\Users\DELL\Desktop\devine\devine\images\blue.png
+      - C:\Users\DELL\Desktop\devine\devine\images\graham.png
+      - C:\Users\DELL\Desktop\devine\devine\images\jordan.png
+      - C:\Users\DELL\Desktop\devine\devine\images\juliaroberts.png
+      - C:\Users\DELL\Desktop\devine\devine\images\larry.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mamadoudia.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mandela.png
+      - C:\Users\DELL\Desktop\devine\devine\images\meghan.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mjordan.png
+      - C:\Users\DELL\Desktop\devine\devine\images\nader.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ro.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sedar.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sudais.png
+      - C:\Users\DELL\Desktop\devine\devine\images\valdiodio.png
+      - C:\Users\DELL\Desktop\devine\devine\images\videos\video.mp4
+      - C:\Users\DELL\Desktop\devine\devine\images\greenn.png
+      - C:\Users\DELL\Desktop\devine\devine\images\qui.png
+      - C:\Users\DELL\Desktop\devine\devine\images\square.png
+      - C:\Users\DELL\Desktop\devine\devine\images\dubai.png
+      - C:\Users\DELL\Desktop\devine\devine\images\medine.png
+      - C:\Users\DELL\Desktop\devine\devine\images\haram.png
+      - C:\Users\DELL\Desktop\devine\devine\images\tour.png
+      - C:\Users\DELL\Desktop\devine\devine\images\elisee.png
+      - C:\Users\DELL\Desktop\devine\devine\images\aire.png
+      - C:\Users\DELL\Desktop\devine\devine\images\soufflle.png
+      - C:\Users\DELL\Desktop\devine\devine\images\quinzee.png
+      - C:\Users\DELL\Desktop\devine\devine\images\dixe.png
+      - C:\Users\DELL\Desktop\devine\devine\images\horizon.png
+      - C:\Users\DELL\Desktop\devine\devine\images\ombre.png
+      - C:\Users\DELL\Desktop\devine\devine\images\brend.png
+      - C:\Users\DELL\Desktop\devine\devine\images\brenda.png
+      - C:\Users\DELL\Desktop\devine\devine\images\colisee.png
+      - C:\Users\DELL\Desktop\devine\devine\images\colise.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mahal.png
+      - C:\Users\DELL\Desktop\devine\devine\images\mumbai.png
+      - C:\Users\DELL\Desktop\devine\devine\images\murail.png
+      - C:\Users\DELL\Desktop\devine\devine\images\muraille.png
+      - C:\Users\DELL\Desktop\devine\devine\images\parte.png
+      - C:\Users\DELL\Desktop\devine\devine\images\part.png
+      - C:\Users\DELL\Desktop\devine\devine\images\phpp.png
+      - C:\Users\DELL\Desktop\devine\devine\images\php.png
+      - C:\Users\DELL\Desktop\devine\devine\images\statute.png
+      - C:\Users\DELL\Desktop\devine\devine\images\statut.png
+      - C:\Users\DELL\Desktop\devine\devine\images\tour.png
+      - C:\Users\DELL\Desktop\devine\devine\images\pinke.png
+      - C:\Users\DELL\Desktop\devine\devine\images\day.png
+      - C:\Users\DELL\Desktop\devine\devine\images\anna.png
+      - C:\Users\DELL\Desktop\devine\devine\images\annan.png
+      - C:\Users\DELL\Desktop\devine\devine\images\A.png
+      - C:\Users\DELL\Desktop\devine\devine\images\hu.png
+      - C:\Users\DELL\Desktop\devine\devine\images\lola.png
+      - C:\Users\DELL\Desktop\devine\devine\images\simple.png
+      - C:\Users\DELL\Desktop\devine\devine\images\sounds\son1.mp3
+      - C:\Users\DELL\Desktop\devine\devine\images\jiji.png
+      - C:\Users\DELL\Desktop\devine\devine\images\rose.png
+
+
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
